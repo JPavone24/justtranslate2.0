@@ -1,0 +1,178 @@
+#containerSmall {
+  background-color: #bbd5f3;
+  height: 900px;
+  margin-left: 0px;
+  position: fixed;
+  background-image: url("../../Image/chatImg.jpg");
+  background-size: 850px 900px;
+  background-repeat: no-repeat;
+}
+
+#containerBig {
+  background-color: #ffffff;
+  height: 900px;
+  margin-right: 0px;
+
+  padding-left: 0px;
+  padding-right: 0px;
+  float: right;
+}
+
+#imgLogoBig,
+#imgLogoSmall {
+  margin-top: 50px;
+}
+h4 {
+  font-weight: 500;
+  color: #075496;
+}
+
+.containerBigMessage {
+  margin-bottom: 30px;
+  font-family: "Charm", cursive;
+  font-weight: 700;
+  font-style: italic;
+  margin-left: 100px;
+}
+
+.containerSmallMessage {
+  margin: auto;
+}
+
+/* @media screen and (max-width: 1700px) {
+  .containerBigMessage {
+    display: none !important;
+  }
+  #imgLogoBig {
+    display: none !important;
+  }
+} */
+
+#containerSmall {
+  height: 900px;
+}
+
+#containerBig {
+  height: 900px;
+}
+
+.containerSmallMessage {
+  margin-top: 350px;
+  text-align: center;
+  color: #4682b4;
+}
+
+.containerSignin {
+  margin-top: 100px;
+}
+
+#buttonSignIn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: #075496;
+  border-radius: 8px;
+  color: #ffffff;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+#buttonSignup {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  border-radius: 8px;
+  background-color: #bbdefb;
+  color: #000000;
+  margin-left: 130px;
+}
+
+.divider {
+  border: 0;
+  height: 60px;
+  background: #4682b4;
+  background-image: linear-gradient(to right, #ccc, #4682b4, #ccc);
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.aDivider {
+  text-align: center;
+  margin: auto;
+}
+
+.information {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1700px) {
+  .containerBigMessage {
+    display: none;
+  }
+  #imgLogoBig {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #containerSmall {
+    display: none !important;
+  }
+  #containerBig {
+    width: 100%;
+  }
+  .containerBigMessage {
+    display: block;
+  }
+  #imgLogoBig {
+    display: block;
+  }
+}
+
+#imgLogoId,
+.logoBigContainer {
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+.message {
+  color: #000000;
+  text-align: center;
+  /* margin-top: 250px; */
+  font-weight: 700;
+  font-family: "Charm", cursive;
+}
+.messageBigContainer {
+  color: #000000;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-family: "Charm", cursive;
+}
+
+.containerSmallMessage {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
+#bigContainerMessage {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #000000;
+}
+
+#membercheckSignin {
+  font-weight: 700;
+  margin-top: 20px;
+  color: #075496;
+}
+
+/* @media screen and (max-width: 980px) {
+    #containerSmall {
+      display: none !important;
+    }
+    #containerBig {
+      width: 100%;
+    }
+  } */

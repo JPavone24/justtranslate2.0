@@ -1,0 +1,145 @@
+.chat-window {
+  height: 500px;
+  /* overflow: auto; */
+  /* background: #f9f9f9; */
+  background: #bbd5f3;
+  /* border: 2px solid #075496; */
+  border-radius: 15px;
+}
+
+#output p {
+  padding: 14px 0px;
+  margin: 0 20px;
+  border-bottom: 1px solid #e9e9e9;
+  color: #555;
+}
+
+#feedback p {
+  color: #aaa;
+  padding: 14px 0px;
+  margin: 0 20px;
+}
+
+#output strong {
+  color: #575ed8;
+}
+
+.chatRoomNav {
+  width: 100%;
+  border: 0px;
+  /* float: left; */
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+#containerSmallFirst {
+  background-color: #bbd5f3;
+  height: 1000px;
+  margin-left: 0px;
+  /* position: fixed; */
+}
+/* #chatRoomContainer {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  border: 2px solid red;
+} */
+
+#containerChatWindow {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  height: 900px;
+  border: 0;
+  padding-right: 0px;
+  padding-left: 0px;
+  color: #000000;
+}
+
+#containerSmallLast {
+  background-color: #bbd5f3;
+  height: 1000px;
+  margin-left: 0px;
+}
+
+#language {
+  color: #000000;
+}
+#language::placeholder {
+  color: #000000;
+  opacity: 1; /* Firefox */
+}
+
+#language:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000000;
+}
+
+#language::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000000;
+}
+
+/* @media only screen and (min-width: 993px) {
+  .chatRoomNav {
+    width: 100%;
+  }
+} */
+
+.divider {
+  border: 0;
+  height: 60px;
+  background: #4682b4;
+  background-image: linear-gradient(to right, #ccc, #4682b4, #ccc);
+  margin-top: 100px;
+  /* margin-bottom: 40px; */
+}
+
+#howToUse {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+#buttonMessage {
+  font-family: "Roboto", sans-serif;
+  background-color: #075496;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  padding: 15px 40px 15px 40px;
+  font-weight: 700;
+}
+
+.receiver {
+  text-align: right;
+}
+
+/* @media screen and (max-width: 1700px) {
+  .containerBigMessage {
+    display: none;
+  }
+  #imgLogoBig {
+    display: none;
+  }
+} */
+
+@media screen and (max-width: 980px) {
+  #containerSmallFirst,
+  #containerSmallLast {
+    display: none !important;
+  }
+  #containerChatWindow {
+    width: 100%;
+  }
+  /* .containerBigMessage {
+    display: block;
+  }
+  #imgLogoBig {
+    display: block;
+  } */
+}
+#containerSmallMsgThree {
+  background-color: #4682b4;
+  float: right;
+  margin-right: 0;
+  margin-top: 0;
+}
